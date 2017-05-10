@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<title>Glamourholic's</title>
+		<style>
+			.button 
+			{
+				background-color: #324B43;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+			}
+		 	img 
+			{
+    		 	display: block;
+    			margin: auto;
+			}  
+			body
+			{
+				background-image: url("background.jpg");
+				background-repeat: no-repeat;
+				background-size: 100%;
+				color: #FEE9ED;
+			}
+			.center 
+			{
+				position: fixed;
+				top: 50%;	
+				margin-top: -50px;
+			}  
+		 </style>
+	</head>
+	
+	<body>
+	<!--	<img src="logo.jpg" width="234" height="193" alt="" title="" align="middle" /> -->
+		<div class="center">
+		<p><input type="button" class="button" onclick="location.href='viewonecustomer.php';" value="View One Customer" />
+		<input type="button" class="button" onclick="location.href='viewallcustomers.php';" value="View All Customers" /></p>
+		<p><input type="button" class="button" onclick="location.href='updatecustomers.php';" value="Update Customer Info" />
+		<input type="button" class="button" onclick="location.href='deletecustomer.php';" value="Remove Customer" />
+		</p>
+		<p>
+			<input type="button" class="button" onclick="location.href='index.html';" value="Menu" />
+		</p>
+		</div>
+	</body>
+</html>
